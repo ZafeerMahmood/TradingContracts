@@ -21,12 +21,12 @@ This is a Remix project folder that contains the default scripts, contracts, and
 
 # Example Code :
 1. Token Contract.
-   ```sol
-   contract MorarableToken is ERC721 {
+   ```solidity
+   contract <YOUR CONTRACT NAME> is ERC721 {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor()ERC721("MorarableToken","MORA"){}
+    constructor()ERC721("<YOUR TOKEN NAME>","<YOUR TOKEN SYMBOL"){}
 
     struct Item{
         uint256 id;
@@ -35,8 +35,8 @@ This is a Remix project folder that contains the default scripts, contracts, and
     }
    ```
 2. Trading Contract.
-   ```sol
-   contract MorarableMarketContract {
+   ```solidity
+   contract <YOUR CONTRACT NAME> {
     struct AuctionItem {
         uint256 id;
         address tokenAddress;
