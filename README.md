@@ -1,4 +1,4 @@
-# this is a Remix backup Folder
+# README
 
 This is a Remix project folder that contains the default scripts, contracts, and test cases. Additionally, two custom contracts have been added, which have been compiled and deployed.
 
